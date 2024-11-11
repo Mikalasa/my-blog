@@ -19,6 +19,13 @@ import { parseDirectiveNode } from './src/plugins/remark-directive-rehype.js'
 import { remarkExcerpt } from './src/plugins/remark-excerpt.js'
 import { remarkReadingTime } from './src/plugins/remark-reading-time.mjs'
 
+import { defineConfig } from 'astro/config'
+
+export default defineConfig({
+  site: 'https://mikalasa.github.io',
+  base: 'my-blog',
+})
+
 const oklchToHex = str => {
   const DEFAULT_HUE = 0
   const regex = /-?\d+(\.\d+)?/g
