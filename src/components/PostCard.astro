@@ -6,6 +6,8 @@ import { Icon } from 'astro-icon/components'
 import { i18n } from '../i18n/translation'
 import I18nKey from '../i18n/i18nKey'
 import { getDir } from '../utils/url-utils'
+import { formatDateToYYYYMMDD } from '../utils/date-utils'
+
 
 interface Props {
   class?: string
@@ -39,13 +41,7 @@ const coverWidth = '28%'
 
 const { remarkPluginFrontmatter } = await entry.render()
 
-function formatDate(date: Date): string {
-    return new Intl.DateTimeFormat("en-US", {
-        month: "short",
-        day: "2-digit",
-        year: "numeric"
-    }).format(date);
-}
+
 
 ---
 <div class:list={["card-base flex flex-col-reverse md:flex-col w-full rounded-[var(--radius-large)] overflow-hidden relative", className]} style={style}>
@@ -72,7 +68,7 @@ function formatDate(date: Date): string {
         <div class="text-sm text-black/30 dark:text-white/30 flex gap-4 transition">
             <div>{remarkPluginFrontmatter.words} {" " + i18n(I18nKey.wordsCount)}</div>
             <div>|</div>
-            <div>{formatDate(published)}</div>
+            <div>{formatDateToYYYYMMDD(published)}</div>
             <!--<div>{remarkPluginFrontmatter.minutes} {" " + i18n(I18nKey.minutesCount)}</div>-->
         </div>
 
