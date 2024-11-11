@@ -1,19 +1,12 @@
 ---
 title: css
 published: 2024-11-11
-description: ''
+description: 'hahahahhahahahahahahahhahahahahahhahahahahahahha'
 image: ''
-tags: []
-category: ''
-draft: false 
-lang: ''
----
----
-title: Draft Example
-published: 2024-11-11T19:25:26.381Z
 tags: [CSS, Web]
-category: Front-end
-draft: false
+category: 'Front-end'
+draft: false 
+lang: 'cn'
 ---
 
 
