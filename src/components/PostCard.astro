@@ -54,8 +54,6 @@ function formatDate(date: Date): string {
            class="transition group w-full block font-bold mb-3 text-3xl text-90
         hover:text-[var(--primary)] dark:hover:text-[var(--primary)]
         active:text-[var(--title-active)] dark:active:text-[var(--title-active)]
-        before:w-1 before:h-5 before:rounded-md before:bg-[var(--primary)]
-        before:absolute before:top-[35px] before:left-[18px] before:hidden md:before:block
         ">
             {title}
             <Icon class="inline text-[2rem] text-[var(--primary)] md:hidden translate-y-0.5 absolute" name="material-symbols:chevron-right-rounded" ></Icon>
@@ -96,16 +94,16 @@ function formatDate(date: Date): string {
         </ImageWrapper>
     </a>}
 
-    {!hasCover &&
+    <!--{!hasCover &&
         <a href={url} aria-label={title} class="hidden md:flex btn-regular w-[3.25rem]
          absolute right-3 top-3 bottom-3 rounded-xl bg-transparent
-         hover:bg-[var(--enter-btn-bg-hover)] active:bg-[var(--enter-btn-bg-active)] active:scale-95
+         hover:bg-[var(&#45;&#45;enter-btn-bg-hover)] active:bg-[var(&#45;&#45;enter-btn-bg-active)] active:scale-95
         ">
             <Icon name="material-symbols:chevron-right-rounded"
-                  class="transition text-[var(--white)] text-4xl mx-auto">
+                  class="transition text-[var(&#45;&#45;white)] text-4xl mx-auto">
             </Icon>
         </a>
-    }
+    }-->
 </div>
 <div class="transition border-t-[1px] border-dashed mx-6 border-black/10 dark:border-white/[0.15] last:border-t-0 md:hidden"></div>
 

@@ -223,3 +223,8 @@
 .collapsed {
     height: var(--collapsedHeight);
 }
+
+
+:root {
+    --primary: #ff0000; /* 定义 --primary 为红色 */
+}

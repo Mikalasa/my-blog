@@ -8,7 +8,7 @@ import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
   title: 'Hotpot Blog',
-  subtitle: 'Demo Site',
+  subtitle: 'Personal blog by Xingyi',
   lang: 'en',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
   themeColor: {
     hue: 0,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -39,12 +39,17 @@ export const siteConfig: SiteConfig = {
 
 export const navBarConfig: NavBarConfig = {
   links: [
-    // LinkPreset.Home,
+    LinkPreset.Home,
     LinkPreset.Archive,
     LinkPreset.About,
     {
       name: 'GitHub',
       url: 'https://github.com/saicaca/fuwari',     // Internal links should not include the base path, as it is automatically added
+      external: true,                               // Show an external link icon and will open in a new tab
+    },
+    {
+      name: 'Profile',
+      url: 'https://mikalasa.github.io/ProfileWeb',     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
     },
   ],
@@ -60,17 +65,22 @@ export const profileConfig: ProfileConfig = {
       icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
                                         // You will need to install the corresponding icon set if it's not already included
                                         // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://twitter.com',
+      url: 'https://x.com/25762wuwutima',
     },
     {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
+      name: 'YouTube',
+      icon: 'fa-brands:youtube',
       url: 'https://store.steampowered.com',
     },
     {
-      name: 'GitHub',
-      icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
+      name: 'Medium',
+      icon: 'fa-brands:medium',
+      url: 'https://medium.com/@xy21314you',
+    },
+    {
+      name: 'Behance',
+      icon: 'fa-brands:behance-square',
+      url: 'https://www.behance.net/stringx',
     },
   ],
 }
