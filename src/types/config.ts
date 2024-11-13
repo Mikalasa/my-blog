@@ -3,7 +3,6 @@ import type { AUTO_MODE, DARK_MODE, LIGHT_MODE } from '@constants/constants'
 export type SiteConfig = {
   title: string
   subtitle: string
-
   lang: string
 
   themeColor: {
@@ -35,7 +34,7 @@ export type Favicon = {
 }
 
 export enum LinkPreset {
-  Home = 0,
+  Posts = 0,
   Archive = 1,
   About = 2,
 }
