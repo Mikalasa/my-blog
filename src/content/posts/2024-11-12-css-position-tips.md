@@ -49,7 +49,7 @@ Following this, with the CSS applied, the **parent** div appears as a 500x500px 
 The generated webpage elements are shown below:
 
 <figure>
-    <img src="https://private-user-images.githubusercontent.com/44009421/385573199-27b79fed-500d-48db-98eb-367b90fc509e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE0ODQxMzIsIm5iZiI6MTczMTQ4MzgzMiwicGF0aCI6Ii80NDAwOTQyMS8zODU1NzMxOTktMjdiNzlmZWQtNTAwZC00OGRiLTk4ZWItMzY3YjkwZmM1MDllLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTEzVDA3NDM1MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdmOWFhY2ZmOGQyNDgxYTM5MmY2MGY1ZjdmZjhmMDYzMzcyMDUzYmVhZjA3ODY1ZmNlMGIwZjg3NDMxNDRhZjMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.4Tcjfta5NgL1Uvbf6UrSbrJ3g6B1-mlBVQUPwdnMB0E" alt="pic-1">
+    <img src="https://i.imgur.com/6eSOoYB.png" alt="pic-1">
     <figcaption><i>Image 1: Initial position of the baby element.</i></figcaption>
 </figure>
 
@@ -75,7 +75,7 @@ Let’s add the `position` property to the **baby** element along with other pro
 We’ll notice that when the **baby** element's `position` is set to `absolute`, it does not center relative to the **parent** but instead centers within the entire webpage, as shown in the image.
 
 <figure>
-    <img src="https://private-user-images.githubusercontent.com/44009421/385578108-4003f981-106d-4fea-a108-a73f875af835.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE0ODQxMzIsIm5iZiI6MTczMTQ4MzgzMiwicGF0aCI6Ii80NDAwOTQyMS8zODU1NzgxMDgtNDAwM2Y5ODEtMTA2ZC00ZmVhLWExMDgtYTczZjg3NWFmODM1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTEzVDA3NDM1MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ4YzkwYmQxN2RiYzEwODQzM2U3ZTdlY2Q1OTFkMTI5OTA0ZWM1ZWQxMTY5MDMyMmJmYzM3ZGI2MTBlMTVmMjAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Mk6nwQElVsiLxykoxGjdjfWYyw01JTERTM8V3Aroiz0" alt="pic-2">
+    <img src="https://i.imgur.com/IuH5NOU.png" alt="pic-2">
     <figcaption><i>Image 2: The baby element is centered relative to the viewport.</i></figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ Next, we’ll change the **baby** element’s `position` property to `relative`:
 ```
 
 <figure>
-    <img src="https://private-user-images.githubusercontent.com/44009421/385643620-09cd6dce-9a34-4fc2-b44b-73b1a3a57fcf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE0ODM2NzAsIm5iZiI6MTczMTQ4MzM3MCwicGF0aCI6Ii80NDAwOTQyMS8zODU2NDM2MjAtMDljZDZkY2UtOWEzNC00ZmMyLWI0NGItNzNiMWEzYTU3ZmNmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTEzVDA3MzYxMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA5MmU0ZjY0YWU3YmFjMjBiOGY4Y2ExZDcyMmZmMmMzMTI1ZDkzODcwNWZmMGNlMTM2MWI1MTgyNzg1OTU5YzEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.QintRyCQCVHDGqBXxQzyW2DjnBcZOXPJJRmNbDUoNNY" alt="pic-3">
+    <img src="https://i.imgur.com/diERBjy.png" alt="pic-3">
     <figcaption><i>Image 3: The baby element appears centered relative to the parent element.</i></figcaption>
 </figure>
 
@@ -132,7 +132,7 @@ Now, we adjust the CSS for the **parent** and **baby** elements as follows:
 In this setup, the **baby** element is strictly positioned relative to the **parent** element.
 
 <figure>
-    <img src="https://private-user-images.githubusercontent.com/44009421/385666388-9c71525d-eaf6-414b-8139-571f77759f0d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE0OTQ5NzksIm5iZiI6MTczMTQ5NDY3OSwicGF0aCI6Ii80NDAwOTQyMS8zODU2NjYzODgtOWM3MTUyNWQtZWFmNi00MTRiLTgxMzktNTcxZjc3NzU5ZjBkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTEzVDEwNDQzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTg4NGI0MmJmYWUzYjY5OGNjODE3MGJmMjUzMTAzNTNiNmVmZGQxMjQ3MjY2YjliNTY1NmMwMDJkNzY2NzM2ZmImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.GEItRKrPLy0lpIyd6SYi0_73k8fN6aZrSDPQKAx6Nd0" alt="pic-4">
+    <img src="https://i.imgur.com/usBzowD.png" alt="pic-4">
     <figcaption><i>Image 4: The baby element is strictly centered relative to the parent element.</i></figcaption>
 </figure>
 
@@ -160,7 +160,7 @@ Let's continue by modifying our existing CSS:
 As shown in the image below, the **baby** element is no longer affected by the `top` and `left` properties. The reason **baby** shifts toward the top-left corner of the viewport is that, when set to `static`, it returns to its default position, which aligns with the top-left corner of the **parent**. However, the `transform` property still applies, causing **baby** to shift leftward on the x-axis and upward on the y-axis, resulting in its offset position.
 
 <figure>
-    <img src="https://private-user-images.githubusercontent.com/44009421/385676126-ae9d93ac-b18d-41a2-a35a-9ee4dee8d4e4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE0OTQ5NzksIm5iZiI6MTczMTQ5NDY3OSwicGF0aCI6Ii80NDAwOTQyMS8zODU2NzYxMjYtYWU5ZDkzYWMtYjE4ZC00MWEyLWEzNWEtOWVlNGRlZThkNGU0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTEzVDEwNDQzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUzZDkwZGQ4ZDJjZTQ1YTJhOGU5N2VhODM3YTkyN2NiYWJlY2UwYjg3NDU0NGU5MjhiN2ZkY2MzMmFmZThhMmQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.UTza4p9okYdlfLdPxd9VoTFKOnCuMHFGLCM5QxiVs5M" alt="pic-5">
+    <img src="https://i.imgur.com/Qk92h06.png" alt="pic-5">
     <figcaption><i>Image 5: Result of applying static positioning to the baby element.</i></figcaption>
 </figure>
 
@@ -190,7 +190,7 @@ body {
 Since **baby** now has `position: fixed`, it will no longer be positioned relative to **parent**. Instead, it will be positioned relative to the viewport. As shown in the animation below, when the webpage starts scrolling, the **baby** element maintains its position relative to the viewport.
 
 <figure>
-    <img src="https://private-user-images.githubusercontent.com/44009421/385688286-3e3a2eb3-db15-48f6-9560-8ec7fdbe9533.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE0OTQ5NzksIm5iZiI6MTczMTQ5NDY3OSwicGF0aCI6Ii80NDAwOTQyMS8zODU2ODgyODYtM2UzYTJlYjMtZGIxNS00OGY2LTk1NjAtOGVjN2ZkYmU5NTMzLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTEzVDEwNDQzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWMwMjQ4YzgxMGZmYzliYjI3YmQ3ZjY5NzJhMGMzZTNmNGFhMDBiZmRhMWMzNDhhZTA4NjViOTI0ODI1NTgxZjgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.oN7E9oNmB0vrmXJQpfK_RKyL-e3aZ4e8IjTr9Ar7FNU" alt="gif-1">
+    <img src="https://i.imgur.com/ytkRJ6V.gif" alt="gif-1">
     <figcaption><i>Gif 1: The baby element remains fixed at the center of the viewport.</i></figcaption>
 </figure>
 
@@ -224,7 +224,7 @@ Next, change the `position` of the **baby** element to `sticky` and remove the `
 In this setup, `top: 100px` means that when the **baby** element is 100px away from the top of its scrolling container (in this case, **parent**), it will "stick" to that position, maintaining a fixed spot in the viewport.
 
 <figure>
-    <img src="https://private-user-images.githubusercontent.com/44009421/385715314-51e36ce0-57ea-4468-b58e-cad19af6529d.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE0OTQ5NzksIm5iZiI6MTczMTQ5NDY3OSwicGF0aCI6Ii80NDAwOTQyMS8zODU3MTUzMTQtNTFlMzZjZTAtNTdlYS00NDY4LWI1OGUtY2FkMTlhZjY1MjlkLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTEzVDEwNDQzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTIxNTU5NmU4OTBiZjI0MzdjMDE1M2M3M2YwYmI5MjRhZDdkOWYxMjc2ZWM3NzkzY2IyODViYjliMTRlZDQ3OWMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.sLOVkBxvp90NxBdDDw8TNaKBQ2xp4iBAYCz-5aWPqJg" alt="gif-2">
+    <img src="https://i.imgur.com/H5lpRWw.gif" alt="gif-2">
     <figcaption><i>GIF 2: Animation demonstrating the sticky effect of the baby element.</i></figcaption>
 </figure>
 
