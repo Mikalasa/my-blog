@@ -70,7 +70,7 @@ export const profileConfig: ProfileConfig = {
     {
       name: 'YouTube',
       icon: 'fa-brands:youtube',
-      url: 'https://store.steampowered.com',
+      url: 'https://www.youtube.com/',
     },
     {
       name: 'Medium',
