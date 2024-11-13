@@ -50,7 +50,7 @@ The generated webpage elements are shown below:
 
 <figure>
     <img src="https://private-user-images.githubusercontent.com/44009421/385573199-27b79fed-500d-48db-98eb-367b90fc509e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE0ODQxMzIsIm5iZiI6MTczMTQ4MzgzMiwicGF0aCI6Ii80NDAwOTQyMS8zODU1NzMxOTktMjdiNzlmZWQtNTAwZC00OGRiLTk4ZWItMzY3YjkwZmM1MDllLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTEzVDA3NDM1MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdmOWFhY2ZmOGQyNDgxYTM5MmY2MGY1ZjdmZjhmMDYzMzcyMDUzYmVhZjA3ODY1ZmNlMGIwZjg3NDMxNDRhZjMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.4Tcjfta5NgL1Uvbf6UrSbrJ3g6B1-mlBVQUPwdnMB0E" alt="pic-1">
-    <figcaption><i>Image 1: Example of CSS position properties.</i></figcaption>
+    <figcaption><i>Image 1: Initial position of the baby element.</i></figcaption>
 </figure>
 
 # Position
@@ -76,7 +76,7 @@ We’ll notice that when the **baby** element's `position` is set to `absolute`,
 
 <figure>
     <img src="https://private-user-images.githubusercontent.com/44009421/385578108-4003f981-106d-4fea-a108-a73f875af835.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE0ODQxMzIsIm5iZiI6MTczMTQ4MzgzMiwicGF0aCI6Ii80NDAwOTQyMS8zODU1NzgxMDgtNDAwM2Y5ODEtMTA2ZC00ZmVhLWExMDgtYTczZjg3NWFmODM1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTEzVDA3NDM1MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ4YzkwYmQxN2RiYzEwODQzM2U3ZTdlY2Q1OTFkMTI5OTA0ZWM1ZWQxMTY5MDMyMmJmYzM3ZGI2MTBlMTVmMjAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Mk6nwQElVsiLxykoxGjdjfWYyw01JTERTM8V3Aroiz0" alt="pic-2">
-    <figcaption><i>Image 2: Example of CSS position properties.</i></figcaption>
+    <figcaption><i>Image 2: Baby is centred relative to the web page.</i></figcaption>
 </figure>
 
 
@@ -102,7 +102,7 @@ Next, we’ll change the **baby** element’s `position` property to `relative`:
 
 <figure>
     <img src="https://private-user-images.githubusercontent.com/44009421/385643620-09cd6dce-9a34-4fc2-b44b-73b1a3a57fcf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE0ODM2NzAsIm5iZiI6MTczMTQ4MzM3MCwicGF0aCI6Ii80NDAwOTQyMS8zODU2NDM2MjAtMDljZDZkY2UtOWEzNC00ZmMyLWI0NGItNzNiMWEzYTU3ZmNmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTEzVDA3MzYxMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA5MmU0ZjY0YWU3YmFjMjBiOGY4Y2ExZDcyMmZmMmMzMTI1ZDkzODcwNWZmMGNlMTM2MWI1MTgyNzg1OTU5YzEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.QintRyCQCVHDGqBXxQzyW2DjnBcZOXPJJRmNbDUoNNY" alt="pic-3">
-    <figcaption><i>Image 3: Example of CSS position properties.</i></figcaption>
+    <figcaption><i>Image 3: The baby looks centered relative to the parent.</i></figcaption>
 </figure>
 
 As shown in the image below, the **baby** element appears centered within the **parent** element. This is because, with `position: relative`, the **baby** element’s offset uses its initial position as a reference point (see Image 1). The combination of `top` and `left` offsets with `transform` creates the visual effect of **baby** being centered within **parent**.
