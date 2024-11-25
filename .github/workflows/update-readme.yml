@@ -36,7 +36,13 @@ jobs:
         with:
           repository: Mikalasa/Mikalasa
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
           path: profile_repo
+
+      - name: Configure HTTPS for GitHub Actions
+        run: |
+          cd profile_repo
+          git remote set-url origin https://github.com/Mikalasa/Mikalasa.git
 
       - name: Update README
         run: |
