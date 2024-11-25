@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "src/content/post/**" # 监听文章目录中的改动
+    workflow_dispatch: # 手动触发
 
 jobs:
   update-readme:
